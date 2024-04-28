@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 
 const start = async () => {
-  console.log('Starting up...');
+  console.log('Starting up Auth server......');
   
   if(!process.env.JWT_KEY){
     throw new Error('JWT_KEY secret not set in kubernetes cluster');
