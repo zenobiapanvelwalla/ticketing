@@ -45,6 +45,7 @@ spec:
                 name: client-srv
                 port:
                   number: 3000
+# fix:  kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
 ---
 apiVersion: v1
 kind: Service
